@@ -1,0 +1,162 @@
+/* Header Styling */
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+.heading{
+    width: 50%;
+}
+
+#header .nav{
+    width: 50%;
+}
+#header .nav ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#header .nav li{
+    margin: 0 1.5rem;
+}
+#welcome-msg{
+    height: 100vh;
+}
+#welcome-msg .msg{
+    width: 60%;
+    margin: 0 auto;
+}
+
+#welcome-msg .msg h2{
+    font-size: 6rem;
+}
+
+#welcome-msg .msg p{
+    font-size: 1.8rem;
+    margin: 3rem 0;
+}
+
+#welcome-msg .msg a{
+    padding: 1.5rem 2rem;
+    font-size: 1.5rem;
+}
+img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.main-content{
+    height: 40rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: white;
+    padding: 0rem 0rem;
+}
+
+.main-content .history-content{
+    background: #333;
+    padding: 2rem;
+}
+
+.main-content .content-img{
+    display: block;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+}
+
+.features i{
+    float: none;
+    display: block;
+    margin: 1rem 0;
+}
+
+.features h3{
+    text-align: center;
+}
+
+.footer p{
+    font-size: 2rem;
+}
+
+
+/* About Styling on Laptop */
+.about-content{
+    width: 50%;
+    margin: 3rem auto;
+}
+
+.about-content h1{
+    font-size: 4rem;
+    margin: 1rem 0;
+}
+
+.about-content p{
+    font-size: 2rem;
+}
+.testimonials{
+    padding: 2rem 4rem;
+    height: 600px;
+}
+.testimonials h2{
+    margin-bottom: 5rem;
+    font-size: 4rem;
+}
+.testimonial{
+    width: 60%;
+    height: 120px;
+    padding: 2.5rem 3rem;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.testimonial p{
+    font-size: 1.6rem;
+}
+
+.testi-1 img,
+.testi-2 img{
+    margin: 1rem;
+}
+
+/* Contact Styling for laptop */
+.contact{
+    width: 60%;
+    margin: 0 auto;
+    height: 900px;
+    position: relative;
+}
+.contact-form{
+    padding: 1rem 2rem;
+    width: 50%;
+    margin: 2rem auto;
+}
+.userName, .userEmail, .userMessage{
+    display: flex;
+    margin: 5rem 1rem;
+    flex-direction: row;
+}
+
+label{
+    font-size: 3rem;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type = "text"], input[type="email"]{
+    width: 100%;
+}
